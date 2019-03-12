@@ -4,9 +4,17 @@
 
 name = input("What is your name: ")
 
-def greeting():
-    print("Hi there " + name + "! ")
-    print("Welcome to the weight calculator")
+print("Hi there " + name + "! " )
+print("Welcome to the weight calculator" + "\n")
 
+while True:
+    age = int(input("Enter An age:"))
+    if age > 100:
+        print("You are too old to be lifting" + "\n")
+    elif age < 14:
+        print("You are too young to lift", "\n")
+        break
+    else:
+        print("Thats the perfect age", "\n")
+        break
 
-question = int(input(("How long have you been lifting"))
