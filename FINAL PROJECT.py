@@ -1,7 +1,8 @@
-# Nicholas Fahndrich
-# 3/11/19
-# FINAL PROJECT
-
+'''
+Nicholas Fahndrich
+3/11/19
+What we have here is a program that will add you maxes together
+'''
 name = input("What is your name: ")
 
 print("Hi there " + name + "! " )
