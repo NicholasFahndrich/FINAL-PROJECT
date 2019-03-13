@@ -5,7 +5,7 @@
 name = input("What is your name: ")
 
 print("Hi there " + name + "! " )
-print("Welcome to the weight calculator" + "\n")
+print("Welcome to the weight lifting calculator" + "\n")
 
 while True:
     age = int(input("Enter Your age:"))
