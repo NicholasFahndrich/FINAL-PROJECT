@@ -42,4 +42,4 @@ for i in range(1):
 for i in range(1):
     bench = int(input("What is your max Bench: "))
     sum = squat + deadlift + bench
-print("The total of your numbers is: " + str(sum))
+print("The total weight you have lifted is: " + str(sum))
