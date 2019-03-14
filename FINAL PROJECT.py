@@ -21,12 +21,12 @@ while True:
 while True:
     time_working = int(input("Enter how long you have been lifting:"))
     if time_working > 100:
-        print("You are too old to be working out" + "\n")
+        print("You are too old to be working out plain and simple" + "\n")
     elif time_working < 2:
-        print("You should use this resource before working out https://www.self.com/story/10-strength-training-tips-for-beginners-that-will-make-your-workout-more-effective", "\n")
+        print("You should use this resource before adding more weight to your routine https://www.self.com/story/10-strength-training-tips-for-beginners-that-will-make-your-workout-more-effective", "\n")
         break
     else:
-        print("Thats the perfect amount of years to be working out", "\n")
+        print("Thats a good amount of years to be working out", "\n")
         break
 
 print("Lets Get Your Maxes Recorded and Lets Total it")
@@ -42,4 +42,6 @@ for i in range(1):
 for i in range(1):
     bench = int(input("What is your max Bench: "))
     sum = squat + deadlift + bench
-print("The total weight you have lifted is: " + str(sum))
+print("The total weight you have lifted is: " + str(sum)
+      
+
