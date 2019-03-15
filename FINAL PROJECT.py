@@ -9,14 +9,16 @@ print("Hi there " + name + "! " )
 print("Welcome to the weight calculator" + "\n")
 
 while True:
-    age = int(input("Enter Your age:"))
+
+    age = int(input("Enter your age:"))
+
     if age > 100:
         print("You are too old to be lifting" + "\n")
     elif age < 14:
         print("You are too young to lift", "\n")
         break
     else:
-        print("Thats the perfect age", "\n")
+        print("Thats the perfect age to be lifting", "\n")
         break
 
 while True:
@@ -43,5 +45,7 @@ for i in range(1):
 print("The total of your numbers is: " + str(sum))
 
 '''
-What we have so far is a program that asks for your name, It welcomes that variable and then we have asking for age a while true type
-of while loops. 
+We have a program that asks people for their names. It then asks for their age. It will tell you if you are a good age to be lifting or not
+it asks how long you have been lifting and if you say below 2 it gives you a resource to get some more info on weight lifting. The program gathers your maxes and will add them all
+up and will tell you how mucg weight you have lifted total
+'''
