@@ -41,3 +41,7 @@ for i in range(1):
     sum = squat + deadlift
 
 print("The total of your numbers is: " + str(sum))
+
+'''
+What we have so far is a program that asks for your name, It welcomes that variable and then we have asking for age a while true type
+of while loops. 
