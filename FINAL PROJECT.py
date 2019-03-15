@@ -44,4 +44,5 @@ for i in range(1):
     sum = squat + deadlift + bench
 print("The total weight you have lifted is: " + str(sum)
       
-
+def thanks_for_coming_to_my_program
+      print 
